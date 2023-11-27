@@ -18,4 +18,9 @@ public class WeatherToForecastMapper implements ForecastMapper {
         jsonNode.get("current").get("weather_descriptions").get(0).asText());
         return forecast;
     }
+
+
+
+
+
 }
